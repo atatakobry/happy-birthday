@@ -1,11 +1,21 @@
 :root {
-  background-color: #fefefe;
-  color: #242424;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  background-color: #323232;
+  color: #fefefe;
   font-weight: 400;
+  font-size: 16px;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-synthesis: none;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+#root {
+  display: flex;
+  flex: 1;
 }
