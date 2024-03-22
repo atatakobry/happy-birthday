@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-hudochenkov/order', 'stylelint-config-standard-scss', 'stylelint-prettier/recommended'],
+  ignoreFiles: ['dist/**'],
   plugins: ['stylelint-prettier'],
   rules: {
     'selector-class-pattern': [
