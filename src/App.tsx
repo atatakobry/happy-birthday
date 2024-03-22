@@ -9,12 +9,14 @@ const App = () => {
         </div>
 
         <div className={styles.content}>
-          <div className={styles.ticketWrapper}>
+          <div className={styles.ticket}>
             <a
-              className={styles.ticket}
+              className={styles.ticketLink}
               target="_blank"
               href="https://drive.google.com/drive/folders/1kZdMnnJhvZJexxygwx68ROMievPX9onM?usp=sharing"
             />
+            <div className={styles.ticketBackground} />
+
             <div className={styles.ticketHint}>
               забери
               <br />
@@ -23,12 +25,12 @@ const App = () => {
           </div>
         </div>
 
-        <div className={styles.footer}>
+        <div>
           <div className={styles.milkovskyi} />
         </div>
       </div>
 
-      <div className={styles.background} />
+      <div className={styles.backgroundImage} />
       <div className={styles.backgroundVignette} />
     </>
   );
