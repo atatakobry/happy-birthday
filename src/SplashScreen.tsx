@@ -6,12 +6,7 @@ import usePreloadImages from './usePreloadImages';
 
 import styles from './SplashScreen.module.scss';
 
-const imagesUrls = [
-  'src/assets/arrow.svg',
-  'src/assets/background.jpg',
-  'src/assets/milkovskyi.png',
-  'src/assets/ticket.png',
-];
+const imagesUrls = ['/arrow.svg', '/background.jpg', '/milkovskyi.png', '/ticket.png'];
 
 const timeout = (ms: number) => {
   return new Promise((resolve) => setTimeout(resolve, ms));

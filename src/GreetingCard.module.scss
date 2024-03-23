@@ -58,7 +58,7 @@
   display: block;
   width: 300px;
   height: 100px;
-  background: url('assets/ticket.png') center center / cover no-repeat;
+  background: url('/ticket.png') center center / cover no-repeat;
   cursor: pointer;
   transition: transform 0.2s;
 
@@ -89,7 +89,7 @@
   top: 100%;
   left: 100%;
   padding: 80px 0 0 140px;
-  background: url('assets/arrow.svg') left top / 140px 110px no-repeat;
+  background: url('/arrow.svg') left top / 140px 110px no-repeat;
   color: #fefefe;
   font-weight: 300;
   font-style: normal;
@@ -105,7 +105,7 @@
 .milkovskyi {
   width: 500px;
   height: 352px;
-  background: url('assets/milkovskyi.png') center center / cover no-repeat;
+  background: url('/milkovskyi.png') center center / cover no-repeat;
   filter: drop-shadow(4px 6px 0 #966c7c);
 }
 
@@ -113,7 +113,7 @@
   position: fixed;
   inset: 0;
   z-index: -1;
-  background: url('assets/background.jpg') center center / 500px 500px repeat;
+  background: url('/background.jpg') center center / 500px 500px repeat;
   opacity: 0.5;
 }
 
