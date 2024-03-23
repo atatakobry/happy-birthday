@@ -1,0 +1,35 @@
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.container {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+
+  &.isOpen {
+    opacity: 1;
+  }
+}
+
+.loader {
+  width: 50px;
+  margin-top: -100px;
+  padding: 8px;
+  border-radius: 50%;
+  background: #966c7c;
+  animation: loading 1s infinite linear;
+  aspect-ratio: 1;
+  mask:
+    conic-gradient(#0000 10%, #000),
+    linear-gradient(#000 0 0) content-box;
+  mask-composite: subtract;
+}
